@@ -1,0 +1,78 @@
+#homeHeader{
+    background-image: url('../assets/pictures/HeaderImg.png');
+    background-size: cover;
+    height: 100vh;
+}
+
+#homeHeader .container:nth-child(2){
+    padding: 140px 0 140px 0;
+}
+#homeHeader .container:nth-child(2) h1{
+    color: white;
+    font-size: 4rem;
+}
+
+#ourBusiness{
+    background-color: #F7F7F7;
+}
+
+#bottomSeperator{
+    height: 6px;
+    width: 107px;
+    background-color: #D17100;
+}
+
+.rounded-regular{
+    border-radius: 8px!important;
+}
+
+#productsCTA{
+    background-image: url('../assets/pictures/CTAimg.png');
+    background-size: contain;
+    background-repeat-x: no-repeat;
+}
+
+footer{
+    background-color: #5F3C14;
+}
+
+.half-header{
+    background-image: url('../assets/pictures/half-header.png');
+    background-size: cover;
+    height: 40vh;
+}
+
+#companyLocation{
+    background-image: url('../assets/pictures/Map.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 250px 0;
+}
+
+.customlink{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#companyLocation h1{
+    font-size: 2.5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 97px;
+}
+
+#customerNumbers h1{
+    font-size: 4rem;
+}
+
+#ContactMap{
+    background-image: url('/build/assets/pictures/MapPinned.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.gmap_canvas{
+    border: 8px solid white;
+    border-radius: 18px;
+}
